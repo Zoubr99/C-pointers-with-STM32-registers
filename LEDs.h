@@ -1,0 +1,62 @@
+#ifndef _LED_H
+#define _LED_H
+#include <stm32f4xx.h>
+void init_led1(void);
+void TL1 (void);
+void dot (void);
+void dash (void);
+void init_led2(void);
+void TL2 (void);
+void seg_init(void);
+void segdisplay_fun (void);
+void RGB_init (void);
+long long samples0 (void);
+long long samples1 (void);
+long long samples2 (void);
+int zero (void);
+int one (void);
+int two (void);
+int three (void);
+int four (void);
+int five(void);
+int six (void);
+int seven (void);
+int eight (void);
+int nine (void);
+void offseg (void);
+void left_seg (int n);
+void right_seg (int n);
+int R_segment_display (int n);
+int L_segment_display (int n);
+void LDR_RGB (void);
+void POT_RGB (void);
+void MIC_RGB (void);
+void pin2_int(void); 
+void pin3_int(void);
+void pin6_int(void);
+void pin7_int (void);
+void pin8_int (void);
+void pin9_int (void);
+void GREEN (void);
+void YELLOW (void);
+void RED (void);
+void p7led (void);
+void p8led (void);
+void p9led (void);
+void pin10_int (void);
+void offGREEN (void);
+void offYELLOW (void);
+void offp7led (void);
+void offp8led (void);
+void offp9led (void);
+void white (void);
+void offwhite (void);
+void offRED (void);
+void offALL (void);
+void onREDS (void);
+void transmission_start (void);
+void transmission_end (void);
+void init_led3(void);
+void TL3 (void);
+
+#endif
